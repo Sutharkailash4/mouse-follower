@@ -66,3 +66,23 @@ html,body{
   }
 }
 
+@keyframes bgouter {
+      0%{
+    border-color: rgb(255, 0, 0);
+  }
+  20%{
+    border-color: #ffffff;
+  }
+  40%{
+    border-color: rgb(0, 255, 0);
+  }
+  60%{
+    border-color: rgb(255, 255, 0);
+  }
+  80%{
+    border-color: rgb(0, 255, 255);
+  }
+  100%{
+    border-color: blue;
+  }
+}
