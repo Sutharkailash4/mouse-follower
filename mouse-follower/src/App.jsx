@@ -8,8 +8,10 @@ const App = () => {
       setLeftVal(e.clientY);
       setRightVal(e.clientX);
     }}>
+      <div className="circle_outer">
       <div style={{position:"absolute" ,top:`${leftVal}px` ,left:`${rightVal}px`}} className="circle">
         
+      </div>
       </div>
     </div>
   )
